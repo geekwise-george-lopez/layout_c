@@ -19,13 +19,12 @@ body{
 }
 
 header{
-    background-color: gold;
+    background-color: darkgray;
     box-sizing: border-box;
     margin:0;
     padding-bottom: 20px;
     width: 100%;
     height: 100%;
-    
 }
 
 main{
@@ -69,6 +68,16 @@ article:nth-of-type(2){
     
 }
 
+.boxed{
+    border:2px transparent;
+    width:100%;
+    max-width:75%;
+    padding:10px;
+    font-size:30px;
+    text-align: center;
+    
+}
+
 article:nth-of-type(3){
     background-color: black;
     color: white;
@@ -101,8 +110,28 @@ button{
 footer{
     background-color: gold;
     margin:0;
-    padding: 20px;
+    padding: 50px;
+    font-size:20px;
+    
+   
 }
+
+
+#face{
+    float:left;
+}
+
+#tweet{
+    float:left;
+}
+#in{
+    float:left;
+}
+
+#copy{
+    float:right;
+}
+
 
 img:nth-of-type(4){
     margin-right: 90px;
